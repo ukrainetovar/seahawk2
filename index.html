@@ -433,7 +433,7 @@ src="https://www.facebook.com/tr?id=454093967139048&ev=PageView&noscript=1"
                   var token = '7108509618:AAGZmsYzJ5IJfN7R_7NFctMnKO2gXfPC9W4';
                   var chatId = 1404908930; // Замініть YOUR_CHAT_ID на ваш реальний ID чату
                
-                 // Відправляємо повідомлення через Telegram API
+ // Відправляємо повідомлення через Telegram API
                     fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
                         method: 'POST',
                         headers: {
@@ -449,23 +449,7 @@ src="https://www.facebook.com/tr?id=454093967139048&ev=PageView&noscript=1"
                     .then(data => {
                         console.log('Success:', data);
                         // Після успішної відправки, одразу перенаправляємо на сторінку "Дякую"
-                        window.location.href = "./ // Відправляємо повідомлення через Telegram API
-                    fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            chat_id: chatId,
-                            text: message,
-                            parse_mode: "Markdown"
-                        })
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        console.log('Success:', data);
-                        // Після успішної відправки, одразу перенаправляємо на сторінку "Дякую"
-                        window.location.href = "./lodka2m_files/thank_you_page.html"; 
+                        window.location.href = "./ьфекфі_files/thank_you_page.html"; 
                     })
                     .catch((error) => {
                         console.error('Error:', error);
@@ -474,6 +458,7 @@ src="https://www.facebook.com/tr?id=454093967139048&ev=PageView&noscript=1"
                 });
             });
         </script>
+
 
 
 
